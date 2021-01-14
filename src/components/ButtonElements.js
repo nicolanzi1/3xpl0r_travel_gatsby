@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
 export const Button = styled.button`
+  margin-top: 32px;
   border-radius: 4px;
   background: ${({ primary }) => (primary ? "#ff4040" : "#0467fb")};
   white-space: nowrap;

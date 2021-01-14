@@ -78,7 +78,7 @@ export const NavMenu = styled.ul`
   }
 `
 
-export const NavItem = styled.div`
+export const NavItem = styled.li`
   height: 80px;
 
   @media screen and (max-width: 960px) {
@@ -86,7 +86,7 @@ export const NavItem = styled.div`
   }
 `
 
-export const NavLinks = styled.div`
+export const NavLinks = styled(Link)`
   color: #141414;
   display: flex;
   align-items: center;
