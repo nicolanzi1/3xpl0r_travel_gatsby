@@ -37,7 +37,3 @@ export const HeroText = styled.p`
     font-size: 30px;
   }
 `
-
-export const Button = styled.button`
-  margin-top: 32px;
-`
